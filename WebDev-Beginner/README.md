@@ -478,7 +478,7 @@ A CDN allows for the quick transfer of assets needed for loading Internet conten
 
  Method | 	Description | Example
  --- | --- | --- 
-document.getElementById(id) | 	Find an element by element id | document.getElementById("#header-1")
+document.getElementById(id) | 	Find an element by element id | document.getElementById("header-1")
 document.getElementsByTagName(name) |	Find elements by tag name | document.getElementsByTagName("span")
 document.getElementsByClassName(name) |	Find elements by class name | document.getElementsByClassName("container")
 document.querySelectorAll() | Query Selector (Combination) | document.querySelectorAll(".conatiner#header")
