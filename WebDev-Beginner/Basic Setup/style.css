@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    animation: changeColor 4s infinite;
+    font-family: 'Roboto', sans-serif; /*Imported from google font*/
+}
+
+/*
+Custom Styles
+*/
+
+
+/*For Animation*/
+@keyframes changeColor{
+    0%   {color: rgb(0, 255, 85); }
+    50% {color: blue;}
+    100% {color: #00c3ff; }
+}
+
+/*
+- For responsive web design 
+- Should be placed at last
+- Around 2-3 breakpoint is sufficient (mobile, tabs, desktop)
+*/
+@media screen and (max-width: 567px) {
+    img{
+        display: none;
+    }
+}
