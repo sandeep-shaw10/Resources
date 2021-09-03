@@ -483,7 +483,7 @@ document.getElementsByTagName(name) |	Find elements by tag name | document.getEl
 document.getElementsByClassName(name) |	Find elements by class name | document.getElementsByClassName("container")
 document.querySelectorAll() | Query Selector (Combination) | document.querySelectorAll(".conatiner#header")
 
-[![Generic badge](https://img.shields.io/badge/EVENT%20HANDLER-1abc9c.svg)](https://www.chartjs.org/docs/latest/getting-started/)
+[![Generic badge](https://img.shields.io/badge/EVENT%20HANDLER-1abc9c.svg)](https://www.javatpoint.com/javascript-events)
 
 [![Generic badge](https://img.shields.io/badge/CSS%20MANIPULATION-1abc9c.svg)](https://www.w3schools.com/js/tryit.asp?filename=tryjs_change_style)
 
